@@ -14,14 +14,14 @@ class RecipeViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var labelText: UILabel!
     
-    var recipeArray = Recipe.getRecipes()
+    var recipeArray: Recipe!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 // Соеденить и присвоить на mainStoryBoard.
-//        imageCover.image = UIImage(named: recipeArray.titleForImage)
-//        titleLabel.text = recipeArray.title
-//        labelText.text = recipeArray.recipe
+        imageCover.image = UIImage(named: recipeArray.titleForImage)
+        titleLabel.text = recipeArray.title
+        labelText.text = recipeArray.recipe
         
     }
 }

@@ -42,7 +42,10 @@ class RecipeListTableTableViewController: UITableViewController {
     
     // MARK: - Navigation
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        guard let recipeVC = segue.destination as? RecipeViewController else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        let recipe = recipeArray[indexPath.row]
+        recipeVC.recipeArray = recipe
     }
 }
