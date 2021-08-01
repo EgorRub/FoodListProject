@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-272" y="-459"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Рецепты-->
         <scene sceneID="RxE-DM-pl3">
             <objects>
-                <tableViewController storyboardIdentifier="01" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8ar-dR-dm4" customClass="RecipeListTableTableViewController" customModule="FoodListProject" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="01-3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8ar-dR-dm4" customClass="RecipeListTableTableViewController" customModule="FoodListProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JUs-xk-gLg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="8ar-dR-dm4" id="9ok-he-45u"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="9cx-Ti-8wX"/>
+                    <navigationItem key="navigationItem" title="Рецепты" largeTitleDisplayMode="always" id="9cx-Ti-8wX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Z0-ci-3EN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,8 +56,8 @@
         <scene sceneID="P9a-Hp-2mZ">
             <objects>
                 <navigationController storyboardIdentifier="01-2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F6E-Mh-YJe" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CCE-Kb-Mfi">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="CCE-Kb-Mfi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
