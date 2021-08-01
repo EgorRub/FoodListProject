@@ -14,6 +14,8 @@
 		7495E65426B5BF630013C2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E65226B5BF630013C2A7 /* Main.storyboard */; };
 		7495E65626B5BF670013C2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7495E65526B5BF670013C2A7 /* Assets.xcassets */; };
 		7495E65926B5BF670013C2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E65726B5BF670013C2A7 /* LaunchScreen.storyboard */; };
+		7495E66326B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E66226B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard */; };
+		7495E66526B6D0E30013C2A7 /* RecipeListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495E66426B6D0E30013C2A7 /* RecipeListTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7495E65526B5BF670013C2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7495E65826B5BF670013C2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7495E65A26B5BF670013C2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7495E66226B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewStoryBoard.storyboard; sourceTree = "<group>"; };
+		7495E66426B6D0E30013C2A7 /* RecipeListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,11 @@
 				7495E64C26B5BF630013C2A7 /* AppDelegate.swift */,
 				7495E64E26B5BF630013C2A7 /* SceneDelegate.swift */,
 				7495E65026B5BF630013C2A7 /* ViewController.swift */,
+				7495E66426B6D0E30013C2A7 /* RecipeListTableTableViewController.swift */,
 				7495E65226B5BF630013C2A7 /* Main.storyboard */,
 				7495E65526B5BF670013C2A7 /* Assets.xcassets */,
 				7495E65726B5BF670013C2A7 /* LaunchScreen.storyboard */,
+				7495E66226B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard */,
 				7495E65A26B5BF670013C2A7 /* Info.plist */,
 			);
 			path = FoodListProject;
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7495E65926B5BF670013C2A7 /* LaunchScreen.storyboard in Resources */,
+				7495E66326B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard in Resources */,
 				7495E65626B5BF670013C2A7 /* Assets.xcassets in Resources */,
 				7495E65426B5BF630013C2A7 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7495E65126B5BF630013C2A7 /* ViewController.swift in Sources */,
+				7495E66526B6D0E30013C2A7 /* RecipeListTableTableViewController.swift in Sources */,
 				51A2EFF626B5C1B400476AA0 /* DataManager.swift in Sources */,
 				7495E64D26B5BF630013C2A7 /* AppDelegate.swift in Sources */,
 				7495E64F26B5BF630013C2A7 /* SceneDelegate.swift in Sources */,
