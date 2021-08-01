@@ -32,7 +32,7 @@ class RecipeListTableTableViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         content.text = recipe.title
         content.image = UIImage(named: recipe.titleForImage)
-        content.imageProperties.cornerRadius = tableView.rowHeight
+        content.imageProperties.cornerRadius = tableView.rowHeight / 2
         
         cell.contentConfiguration = content
 

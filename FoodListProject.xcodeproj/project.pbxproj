@@ -14,9 +14,7 @@
 		7495E65426B5BF630013C2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E65226B5BF630013C2A7 /* Main.storyboard */; };
 		7495E65626B5BF670013C2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7495E65526B5BF670013C2A7 /* Assets.xcassets */; };
 		7495E65926B5BF670013C2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E65726B5BF670013C2A7 /* LaunchScreen.storyboard */; };
-		7495E66326B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E66226B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard */; };
 		7495E66526B6D0E30013C2A7 /* RecipeListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495E66426B6D0E30013C2A7 /* RecipeListTableTableViewController.swift */; };
-		7495E66B26B6D6990013C2A7 /* RecipeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495E66A26B6D6990013C2A7 /* RecipeStoryBoard.storyboard */; };
 		7495E66D26B6D6BE0013C2A7 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495E66C26B6D6BE0013C2A7 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +28,7 @@
 		7495E65526B5BF670013C2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7495E65826B5BF670013C2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7495E65A26B5BF670013C2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7495E66226B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewStoryBoard.storyboard; sourceTree = "<group>"; };
 		7495E66426B6D0E30013C2A7 /* RecipeListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListTableTableViewController.swift; sourceTree = "<group>"; };
-		7495E66A26B6D6990013C2A7 /* RecipeStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecipeStoryBoard.storyboard; sourceTree = "<group>"; };
 		7495E66C26B6D6BE0013C2A7 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,8 +69,6 @@
 				7495E65226B5BF630013C2A7 /* Main.storyboard */,
 				7495E65526B5BF670013C2A7 /* Assets.xcassets */,
 				7495E65726B5BF670013C2A7 /* LaunchScreen.storyboard */,
-				7495E66226B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard */,
-				7495E66A26B6D6990013C2A7 /* RecipeStoryBoard.storyboard */,
 				7495E65A26B5BF670013C2A7 /* Info.plist */,
 			);
 			path = FoodListProject;
@@ -148,8 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7495E65926B5BF670013C2A7 /* LaunchScreen.storyboard in Resources */,
-				7495E66326B6CFEE0013C2A7 /* TableViewStoryBoard.storyboard in Resources */,
-				7495E66B26B6D6990013C2A7 /* RecipeStoryBoard.storyboard in Resources */,
 				7495E65626B5BF670013C2A7 /* Assets.xcassets in Resources */,
 				7495E65426B5BF630013C2A7 /* Main.storyboard in Resources */,
 			);
